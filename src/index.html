@@ -1,21 +1,3 @@
-<script>
-    function askForPassword() {
-        var password = prompt("Please enter the password");
-        if (password == "") {
-            alert("You must enter a password");
-            askForPassword();
-        } else {
-            if (password == "calc123") {
-                document.getElementById("content").style.display = "block";
-            } else {
-                alert("Incorrect password");
-                askForPassword();
-            }
-        }
-    }
-    // askForPassword()
-</script>
-
 <!DOCTYPE html>
 <html>
     <head>
