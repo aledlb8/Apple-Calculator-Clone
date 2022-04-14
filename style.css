@@ -1,3 +1,7 @@
+html, body {
+    background-color: #111;
+}
+
 .calculator {
     margin: 0 auto;
     width: 250px;
@@ -12,7 +16,7 @@
     margin: 2px;
     font-size: 20px;
     font-weight: bold;
-    color: #000;
+    color: #eee;
     padding: 5px;
     border: none;
     border-radius: 30px;
@@ -36,6 +40,11 @@ div {
 
 .key-cero {
     grid-column: span 2;
+    background-color: #424040;
+}
+
+.key-number {
+    background-color: #424040;
 }
 
 .calculator-display {
